@@ -1,11 +1,4 @@
-.idea
-out
-gen
 node_modules/
-server/node_modules/
+dist/
 *.log
-node_modules/
-reddittasker.db
-server/node_modules/
-client/node_modules/
-
+.idea/
