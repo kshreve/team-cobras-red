@@ -1,15 +1,13 @@
 {
-  "name": "to-do",
+  "name": "team-cobras-red-weekly-1",
   "version": "1.0.0",
   "description": "weekly dev to-do",
-  "author": "lazopm",
-  "private": true,
+  "author": "kshreve",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "test": "",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+    "heroku": "npm run build"
   },
   "dependencies": {
     "vue": "^1.0.21",
